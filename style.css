@@ -1,0 +1,248 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0px 166px;
+}
+
+.header {
+  background-image: url(bg2.jpeg);
+  height: 220vh;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.header-line {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.logo {
+  border-radius: 50px;
+  border: 8px solid gray;
+  width: 400px;
+}
+.logo:hover {
+  border: 8px solid rebeccapurple;
+}
+
+.nav-item {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  background: whitesmoke;
+  margin-right: -2px;
+  border: 5px solid gray;
+  -webkit-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+
+  padding: 14px 18px;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 50px;
+}
+.nav-item:hover {
+  color: blue;
+  background-color: yellow;
+  border: 8px solid blue;
+}
+
+.button {
+  background-color: whitesmoke;
+  border: 7px solid gray;
+  color: black;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+  -webkit-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+  font-size: 20px;
+  border-radius: 50px;
+}
+.button:hover {
+  background-color: yellow;
+  color: blue;
+  border: 7px solid blue;
+}
+.header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 255px;
+  color: grey;
+
+  font-size: 41px;
+  font-weight: 400;
+
+  font-family: "Lobster", cursive;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 25%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  right: 0px;
+  border: 10px solid gray;
+  border-radius: 50px;
+  background: white;
+  padding: 10px;
+}
+.images-soc:hover {
+  background-color: chartreuse;
+}
+
+.header-down {
+  padding-left: 908px;
+  height: 300px;
+}
+.header-subtitle {
+  color: grey;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Lobster", cursive;
+  height: 0px;
+}
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.icons-item {
+  text-align: center;
+  width: 300px;
+  height: 284px;
+  border: 8px solid gray;
+  border-radius: 50px;
+  padding: 7px;
+  margin: 4px;
+}
+p {
+  font-size: 30px;
+  font-family: cursive;
+  color: black;
+}
+.main-text {
+  position: relative;
+}
+.title {
+  color: #111;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.title h2 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+h2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 40px);
+  height: 6px;
+  width: 50vw;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: calc(100% + 40px);
+  height: 6px;
+  width: 50vw;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+.subtitle {
+  position: relative;
+  color: #111;
+  font-size: 35px;
+  top: -44px;
+}
+.text-center {
+  text-align: center;
+}
+.main-text_content {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.6;
+  padding-top: 25px;
+}
+.footer {
+  background: rgb(1, 39, 1);
+}
+.footer-contacts_box p {
+  color: beige;
+  font-size: 17px;
+}
+
+.logo-footer {
+  border: 12px solid gray;
+  width: 400px;
+  background: white;
+  border-radius: 16px;
+}
+.footer-top {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.footer-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: beige;
+  font-size: 17px;
+  padding-left: 120px;
+}
+.footer-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-center_box {
+  color: beige;
+  text-decoration: none;
+
+  font-family: cursive;
+}
+li {
+  list-style-type: none;
+  height: 44px;
+}
